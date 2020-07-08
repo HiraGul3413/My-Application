@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:rowCount="10"
+    android:columnCount="9"
+    android:padding="10dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true">
+    <TextView
+        android:textSize="30dp"
+        android:text="Attendance Sheet"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#02188B"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="8"
+        android:paddingBottom="10dp"
+        android:background="#DDBDDD"/>
+    <TextView
+        android:text="S.No   "
+        android:textStyle="bold"
+        android:layout_gravity="fill_horizontal"
+        android:background="#C0EAF0"/>
+    <TextView
+        android:text="01."
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="02."
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="03."
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="04."
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="05."
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="06."
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="07."
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="08."
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="Name   "
+        android:textStyle="bold"
+        android:layout_gravity="fill_horizontal"
+        android:background="#C0EAF0"/>
+    <TextView
+        android:text="Alia"
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="Filza"
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="Hira"
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="Iqra"
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="Kinza"
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="Laiba"
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="Saba"
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="Zara"
+        android:layout_gravity="fill_horizontal" />
+    <TextView
+        android:text="Date   "
+        android:id="@+id/date1"
+        android:clickable="true"
+        android:inputType="date"
+        android:textStyle="bold"
+        android:layout_gravity="fill_horizontal"
+        android:background="#C0EAF0"
+        android:onClick="setDate"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/c1"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/c2"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/c3"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/c4"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/c5"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/c6"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/c7"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/c8"/>
+    <TextView
+        android:text="Date   "
+        android:id="@+id/date2"
+        android:clickable="true"
+        android:inputType="date"
+        android:textStyle="bold"
+        android:layout_gravity="fill_horizontal"
+        android:background="#C0EAF0"
+        android:onClick="setDate"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/d1"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/d2"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/d3"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/d4"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/d5"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/d6"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/d7"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/d8"/>
+    <TextView
+        android:text="Date   "
+        android:id="@+id/date3"
+        android:clickable="true"
+        android:inputType="date"
+        android:textStyle="bold"
+        android:layout_gravity="fill_horizontal"
+        android:background="#C0EAF0"
+        android:onClick="setDate"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/e1"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/e2"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/e3"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/e4"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/e5"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/e6"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/e7"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/e8"/>
+    <TextView
+        android:text="Date   "
+        android:id="@+id/date4"
+        android:clickable="true"
+        android:inputType="date"
+        android:textStyle="bold"
+        android:layout_gravity="fill_horizontal"
+        android:background="#C0EAF0"
+        android:onClick="setDate"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/f1"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/f2"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/f3"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/f4"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/f5"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/f6"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/f7"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/f8"/>
+    <TextView
+        android:text="Total   "
+        android:textStyle="bold"
+        android:layout_gravity="fill_horizontal"
+        android:background="#C0EAF0"/>
+    <TextView
+        android:id="@+id/t1"/>
+    <TextView
+        android:id="@+id/t2"/>
+    <TextView
+        android:id="@+id/t3"/>
+    <TextView
+        android:id="@+id/t4"/>
+    <TextView
+        android:id="@+id/t5"/>
+    <TextView
+        android:id="@+id/t6"/>
+    <TextView
+        android:id="@+id/t7"/>
+    <TextView
+        android:id="@+id/t8"/>
+    <TextView
+        android:text="%age"
+        android:textStyle="bold"
+        android:layout_gravity="fill_horizontal"
+        android:background="#C0EAF0"/>
+    <TextView
+        android:id="@+id/p1"/>
+    <TextView
+        android:id="@+id/p2"/>
+    <TextView
+        android:id="@+id/p3"/>
+    <TextView
+        android:id="@+id/p4"/>
+    <TextView
+        android:id="@+id/p5"/>
+    <TextView
+        android:id="@+id/p6"/>
+    <TextView
+        android:id="@+id/p7"/>
+    <TextView
+        android:id="@+id/p8"/>
+</GridLayout>
